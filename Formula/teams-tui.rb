@@ -5,13 +5,13 @@ class TeamsTui < Formula
   
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/craetive-australia/teams-tui/releases/download/v0.1.5/teams-tui-macos-arm64.tar.gz"
-    sha256 "5515b128c6165d845d4bd583ab2a54571e7644ea9c4048234cc231d533652bc2"
+    sha256 "41b17aa28e38c60dddc598f02989de818edc838e5d9de715b12108c8cba0a4e1"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/craetive-australia/teams-tui/releases/download/v0.1.5/teams-tui-macos-amd64.tar.gz"
-    sha256 "b1cf23d0be339e836413698521dfe7dd4cb69ba2298e779d758ff870d6691e28"
+    sha256 "57487703cc2f793b241f23b3d62dc60292850fbca9788cc7f84cdf3480efe166"
   elsif OS.linux?
     url "https://github.com/craetive-australia/teams-tui/releases/download/v0.1.5/teams-tui-linux-amd64.tar.gz"
-    sha256 "ca321e0559b489440f4010d78f4dd5d05882bc5ba7e152e61c0315f317481371"
+    sha256 "e8abb7a19eeaf17e1265c09c2990dd359152003572cd9171c6f1f03e0fd55702"
   end
 
   def install
